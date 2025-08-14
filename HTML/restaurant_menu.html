@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Grill  & Smoke</title>
+            <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+            <figure id="header-img">
+                <!--An image with an id of "header-img" -->
+            </figure>
+            <h1>  <u> Grill & Smoke </u></h1>
+            <nav>
+                <a href ="#menu" >Menu </a>
+                <br>
+                <a href="#order_form"> Order</a>
+        
+            </nav>
+            <style>
+                h1{
+                    font-family: 'UnifrakturCook', cursive;
+                    font-size: 48px;
+                }
+                .description{
+                    width: auto;
+                }
+                img{
+                    width: 300px;
+                    height: auto;
+                }
+                figure{
+                    margin: auto;
+                }
+                body{
+                    background-color: rgb(210,100,0);
+                    text-align: center;
+                }
+                hr{
+                    height: 3px;
+                    background-color: rgb(50, 0, 0);
+                    border: none;
+                }
+                a {
+                    color: rgb(209, 205, 16);
+                }
+                input{
+                    background-color: rgb(209, 205, 16);
+                    border: none;
+                }
+                textarea{
+                    background-color: rgb(209, 205, 16);
+                    border: none;
+                }
+
+            </style>
+    </head>
+    <body>
+        <header>
+            <h2> Welcome to <i>Grill & Smoke</i> stakehouse!</h2>
+        </header>
+        <main>
+            <section id="menu">
+                <hr>
+                <h2> Menu </h2>
+                <hr>
+                <article class="menu_item">
+                    <h3> Grilled Chicken</h3>
+                    <figure>
+                        <img
+                        src="https://www.lecremedelacrumb.com/wp-content/uploads/2022/11/best-easy-grilled-chicken-3.jpg"
+                        alt="Grilled chicken">
+                        <figcaption>Free range chicken grilled on charcoal</figcaption>
+                    </figure>
+                    <p class="description"><i>The jack of all trades. Our <strong> grilled chicken</strong> combines both the maximum quality
+                        and tastiness. Marinated for hours with herbs and grilled lemon it is a dish that everybody loves. 
+                        You can eat it either plain simple or with any sides or sauces that you want, just enjoy it!<br> 17,95$</i>
+
+                    </p>
+                </article>
+                <br>
+                <article class="menu_item">
+                    <h3>
+                        Grilled steak
+                    </h3>
+                    <figure >
+                        <img 
+                        src="https://www.seriouseats.com/thmb/5CWQkKpX1CvcDMKXhGslM8pQB5s=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2015__08__20130523-smoked-ribeye-19-large-6f103a66a19643a5b0106c24e99b52bf.jpg"
+                        alt= "Local stake grilled on charcoal">
+                        <figcaption>Local stake grilled on charcoal</figcaption>
+                    </figure>
+                    <p class="description"><i> We are glad to present you our signature dish. Brought directly from
+                        the nearest farms around town. Our clients have trouble to express the tastiness and flavour
+                        of our <strong> charcoal grilled steak </strong> </i><br> 19,95$</p>
+                </article>
+                <br>
+                <article class="menu_item">
+                    <h3> Smoked Picanha</h3>
+                    <figure>
+                        <img
+                        src="https://www.masterbuilt.com/cdn/shop/articles/MB_Smoked_Picanha_Recipe_790x450_webp.jpg?v=1752518585"
+                        alt="Smoked picanha">
+                        <figcaption>American smoked Picanha</figcaption>
+                    </figure>
+                    <p class="description"><i>For those who like to try different things. We bring you our <strong> American 
+                        Picanha</strong>. The pine wood we use gives the Picanha an unique flavor that can not be found anywhere
+                        else.</i><br> 24,95$</p>
+                </article>
+                <br>
+            </section>
+            <section id="order_form" >
+                <hr>
+                <h2> Place to order</h2>
+                <hr>
+                <form>
+                    <label>Grilled chicken <input type="number" min="0" max="15"></label>
+                    <br><br>
+                    <label>Grilled steak   <input type="number" min="0" max="15"></label>
+                    <br><br>
+                    <label>Smoked picanha   <input type="number" min="0" max="15"></label>
+                    <br> <br>
+                    <h3> Pick your sides</h3> 
+                    <label>
+                        Corn salad
+                        <input type="checkbox">
+                    </label>   
+                    <label>   
+                        Fries
+                        <input type="checkbox">
+                    </label> 
+                    <label>   
+                        Lettuce salad
+                        <input type="checkbox">
+                    </label></li>
+                    <h3>Comments and requests</h3>
+                    <label> <textarea placeholder="Please, write here any special requests..."  rows="5" cols="30" maxlength="200"></textarea> </label>
+                    <br>
+                    <input type="submit" value="Go to checkout">
+                </form>
+            </section>
+        </main>
+            <footer>
+              <hr>
+               <p>
+                  Made with love by Andrei
+                </p>
+            </footer>
+    </body>
+</html>
